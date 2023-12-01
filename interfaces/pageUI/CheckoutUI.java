@@ -11,5 +11,6 @@ public class CheckoutUI {
 	public static final String ADDRESS_TEXTBOX = "//input[@id='addressAutoCompletionSearch30']";
 	public static final String ADDRESS_DROPDOWN_LIST = "//div[@class='addressAutoCompletionSearchResult addressAutoCompletionSearchResultShow']";
 	public static final String ADDRESS = "//li[@data-place-description='260 Phố Đội Cấn, Liễu Giai, Ba Đình, Hanoi, Vietnam']";
+	public static final String ADD_ADDRESS_HYPERLINK = "//div[@class='addressAutoCompletionSearchResult addressAutoCompletionSearchResultShow']//child::div[contains(@class, 'SearchResultNonExistingAddressError')]/button//span";
 
 }

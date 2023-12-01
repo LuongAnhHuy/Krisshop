@@ -75,16 +75,16 @@ public class Testcase_01 {
 	  
 	  checkout.inputToAddressSearch("260 Đội Cấn");
 	  
+	  checkout.selectToAddressSearch();
 	  
-	  
-	  //checkout.selectToAddressSearch();
+	  checkout.clickToAddAddressManuallyButtonn();
 	  
 	  
   }
 
   @AfterClass
   public void afterClass() {
-	  //driver.quit();
+	  driver.quit();
   }
 
 }

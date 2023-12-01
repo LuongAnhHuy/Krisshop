@@ -58,5 +58,10 @@ public class CheckoutObject extends AbstractPage_01{
 		
 		
 	}
+	public void clickToAddAddressManuallyButtonn() {
+		waitToElementClickable(driver, CheckoutUI.ADD_ADDRESS_HYPERLINK);
+		clickToElement(driver, CheckoutUI.ADD_ADDRESS_HYPERLINK);
+		
+	}
 
 }
